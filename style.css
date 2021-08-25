@@ -53,7 +53,7 @@ body {
     line-height: 25px;
 }
 
-article {
+.lado-esquerdo {
     position: relative;
     width: 400px;
     left: 25%;
@@ -61,7 +61,7 @@ article {
     line-height: 25px;
 }
 
-aside {
+.lado-direito {
     position: relative;
     width: 500px;
     left: 53%;
