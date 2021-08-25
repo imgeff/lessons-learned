@@ -1,13 +1,177 @@
 body {
-    background-color: rgb(253, 251, 251);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
+    background-color: #202024;
+    margin: -8px;
+    width: 100%;
     position: fixed;
+    z-index: 3;
     top: 0;
 }
 
+#titulo {
+    margin-left: 300px;
+}
+
 #minha_foto {
-    max-width: 500px;
-    max-height: 500px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    max-width: 320px;
+    max-height: 320px;
+    background-color: #202024;
+    padding: 10px;
+}
+
+.list-aprendidas {
+    background-color: #202024;
+    color: rgb(225, 225, 230);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    left: 25%;
+    top: 517px;
+    line-height: 25px;
+}
+
+.list-a-aprender {
+    background-color: #202024;
+    color: rgb(225, 225, 230);
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    left: 53%;
+    top: 146px;
+    line-height: 25px;
+}
+
+article {
+    position: relative;
+    width: 400px;
+    left: 25%;
+    top: -700px;
+    line-height: 25px;
+}
+
+aside {
+    position: relative;
+    width: 500px;
+    left: 53%;
+    top: -962px;
+    line-height: 25px;
+}
+
+table {
+    background-color: #202024;
+    padding: 35px 20px;
+    border-radius: 20px;
+    color: rgb(225, 225, 230);
+    position: relative;
+    left: 713px;
+    bottom: 130px;
+    margin-bottom: 200px;
+}
+
+thead {
+    background-color: black;
+    color: #04D361;
+}
+
+thead th {
+    padding: 5px 10px;
+}
+
+tbody {
+    background-color: #000000;
+}
+
+tbody th {
+    padding: 5px 10px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot {
+    background-color: #04D361;
+    color: black;
+    text-align: center;
+}
+
+caption {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+td {
+    font-weight: 700;
+}
+
+#link-1 {
+    text-decoration: none;
+    position: fixed;
+    left: 70%;
+    top: 25px;
+    font-weight: 800;
+    z-index: 4;
+    background-color: #202024;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#link-2 {
+    text-decoration: none;
+    position: fixed;
+    left: 65%;
+    top: 25px;
+    font-weight: 800;
+    z-index: 4;
+    background-color: #202024;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#link-3 {
+    text-decoration: none;
+    position: fixed;
+    left: 60%;
+    top: 25px;
+    font-weight: 800;
+    z-index: 4;
+    background-color: #202024;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#link-1:hover {
+    color: #04D361;
+}
+
+#link-2:hover {
+    color: #04D361;
+}
+
+#link-3:hover {
+    color: #04D361;
+}
+
+#rodape {
+    background-color: #202022;
+    padding: 20px;
+    margin: -8px;
+    text-align: center;
+    border: 0px;
 }
